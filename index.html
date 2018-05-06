@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Shayan Sulehri JQuery Plugin</title>
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+
+	<div class="intro">
+		<h2>Shayan Sulehri</h2>
+		<h4>JQuery Plugin |
+			<a href="mailto:shayan.sulehri@gmail.com">shayan.sulehri@gmail.com</a>
+		</h4>
+	</div>
+	<div class="main" style="width: 61%">
+		<div class="cont cont1" style="width:125px; ">
+
+		</div>
+		<div class="cont cont2" style="width:300px;">
+
+		</div>
+		<div class="cont cont3" style="width:300px;">
+
+		</div>
+	</div>
+</body>
+<!-- jQuery Plugins -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript">
+	$(document).ready(function () {
+
+		//EXAMPLE 1
+		$('.cont1').reorderable([{
+				label: "Santa",
+				src: "http://www.iconninja.com/files/921/4/840/emoji-happy-emot-santa-smiley-smile-icon.png"
+			}, {
+				label: "BOX 1",
+				backgroundColor: "#571845"
+			},
+			{
+				label: "BOX 2",
+				backgroundColor: "#900C3E"
+			},
+			{
+				label: "Lorem Ipsum",
+				backgroundColor: "#C70039"
+			},
+			{
+				label: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+				backgroundColor: "#FF5733"
+			},
+			{
+				label: "Vestibulum nec est in est efficitur mattis.",
+				src: "http://icons.iconarchive.com/icons/graphicloads/food-drink/256/icecream-2-icon.png",
+				backgroundColor: "#FFC300"
+			},
+			{
+				label: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+				backgroundColor: "#00BBD4"
+			},
+			{
+				label: "Vestibulum nec est in est efficitur mattis.",
+				src: "http://icons.iconarchive.com/icons/sonya/swarm/256/Pizza-icon.png",
+				backgroundColor: "#CCDB38"
+			},
+			{
+				label: "BOX",
+				backgroundColor: "#8CC24A"
+			}
+		]);
+		//EXAMPLE 2
+		$('.cont2').reorderable([{
+			label: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+		}, {
+			color: "#bbb",
+			label: "Vestibulum nec est in est efficitur mattis.",
+			src: "http://icons.iconarchive.com/icons/sonya/swarm/256/Pizza-icon.png"
+		}]);
+		//EXAMPLE 3
+		$('.cont3').reorderable([{
+			label: "BOX 1",
+			src: "http://icons.iconarchive.com/icons/graphicloads/food-drink/256/icecream-2-icon.png"
+		}]);
+	});
+</script>
+</html>
