@@ -56,7 +56,13 @@
 				//binding remove event
 				$(this).find('.remove').on('click', self.remove.bind(self));
 				//JQuery UI Sortable for drag and drop sorting
-				$(this).parent().sortable();
+				if(typeof $(this).parent().sortable !== "undefined"){
+					$(this).parent().sortable();
+				}else{
+					//throw warning once
+					if(i === 0)
+						console.warn("JQuery UI Missing! Please include JQuery UI to drag and drop list items.")
+				}
 			})
 		},
 		populateHtml: function (arr) {
