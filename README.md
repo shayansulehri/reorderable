@@ -1,4 +1,3 @@
-# Shayan Sulehri
 # Simple Reorderable List JQuery Plugin
 
 Simple JQuery plugin for reorderable lists.
