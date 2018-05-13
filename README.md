@@ -8,6 +8,8 @@ Simple Reorderable List JQuery Plugin is a simple, flexible list plugin. It enab
 
 Simple Reorderable List JQuery Plugin depends on jQuery UI and works well with Twitter's Bootstrap.
 
+**NOTE**: index.html file is a demo, with a working example for using reorderable.js in /js.
+
 ## Demo
 
 [Basic Demo](https://www.google.com)
