@@ -6,7 +6,7 @@ Simple JQuery plugin for reorderable lists.
 
 Simple Reorderable List JQuery Plugin is a simple, flexible list plugin. It enables items in a list to be sorted horizontally using the mouse or up and down arrows.
 
-jQuery Sortable depends on jQuery UI and works well with Twitter's Bootstrap.
+Simple Reorderable List JQuery Plugin depends on jQuery UI and works well with Twitter's Bootstrap.
 
 ## Demo
 
