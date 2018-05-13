@@ -10,16 +10,16 @@ All the JavaScript code is in main.js.
 
 ### Installing
 
-Bind the plugin on any container.
+Bind the plugin with any element.
 
 ```
 $('.container').reorderable();
 ```
 
 Pass an array of JavaScript objects with no configuration properties (to invoke default properties) OR choose from the following properties (you can use one or all properties, as required).
-NOTE: For any property you miss, default property will take place.
+**NOTE: For any property you miss, default property will take place.
 
-```
+```javascript
 $('.container').reorderable([
     {
         label: "Text",
@@ -31,7 +31,7 @@ $('.container').reorderable([
 ```
 For multiple items, pass an array of objects.
 
-```
+```javascript
 var array = [
     {
         //0 index
