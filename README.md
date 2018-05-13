@@ -1,6 +1,5 @@
 # Shayan Sulehri
-# shayan.sulehri@gmail.com
-# Reorderable JQuery Plugin
+# Simple Reorderable List JQuery Plugin
 
 Simple JQuery plugin for reorderable lists.
 

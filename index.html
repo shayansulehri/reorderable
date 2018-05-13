@@ -2,35 +2,47 @@
 <html lang="en">
 
 <head>
-	<title>Shayan Sulehri JQuery Plugin</title>
+	<title>Shayan Sulehri | Reorderable</title>
 	<!-- Custom stlylesheet -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	    crossorigin="anonymous">
 	<link type="text/css" rel="stylesheet" href="css/style.css" />
-
+	<link type="text/css" rel="stylesheet" href="css/reorderable.css" />
 </head>
 
 <body>
+	<div class="main">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 ml-auto mr-auto text-center pt-3">
+					<h2>Simple Reorderable List</h2>
+					<h4>JQuery Plugin</h4>
+					<h5>This is the paragraph where you can write more details about your product. Keep you user engaged by providing meaningful
+						information. Remember that by this time, the user is curious, otherwise he wouldn't scroll to get here. Add a button
+						if you want the user to see more.</h5>
+					<br>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 ml-auto mr-auto">
+					<div class="cont cont1 col-md-7">
 
-	<div class="intro">
-		<h2>Shayan Sulehri</h2>
-		<h4>JQuery Plugin |
-			<a href="mailto:shayan.sulehri@gmail.com">shayan.sulehri@gmail.com</a>
-		</h4>
-	</div>
-	<div class="main" style="width: 61%">
-		<div class="cont cont1" style="width:125px; ">
+					</div>
+					<div class="cont cont2" style="width:400px;">
 
+					</div>
+					<div class="cont cont3" style="width:300px;">
+					</div>
+				</div>
+			</div>
 		</div>
-		<div class="cont cont2" style="width:300px;">
 
-		</div>
-		<div class="cont cont3" style="width:300px;">
-
-		</div>
 	</div>
 </body>
 <!-- jQuery Plugins -->
 <script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/reorderable.js"></script>
 <script type="text/javascript">
 	$(document).ready(function () {
 
@@ -88,4 +100,5 @@
 		}]);
 	});
 </script>
+
 </html>

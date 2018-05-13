@@ -1,6 +1,6 @@
 /*
- * Shayan Sulehri
- * Front-End Web Engineer Assignment
+ * @Shayan Sulehri
+ * Simple Reorderable List JQuery Plugin
  */
 ;
 (function ($, window, document, undefined) {
@@ -55,6 +55,8 @@
 				$(this).find('.downArrow').on('click', self.moveDown.bind(self));
 				//binding remove event
 				$(this).find('.remove').on('click', self.remove.bind(self));
+				//JQuery UI Sortable for drag and drop sorting
+				$(this).parent().sortable();
 			})
 		},
 		populateHtml: function (arr) {
