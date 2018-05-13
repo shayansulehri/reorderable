@@ -58,11 +58,8 @@ $('.container').reorderable(array);
 
 ## Built With
 
-* [JQuery](http://api.jquery.com/) - JavaScript Library
-
-## Authors
-
-* **Shayan Sulehri** - *LinkedIn Profile* - [LinedIn](https://www.linkedin.com/in/shayansulehri/)
+* [JQuery](http://api.jquery.com/)
+* [JQueryUI](http://jqueryui.com/)
 
 
 
