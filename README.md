@@ -12,7 +12,7 @@ Simple Reorderable List JQuery Plugin depends on jQuery UI and works well with T
 
 ## Demo
 
-[Basic Demo](https://www.google.com)
+[Basic Demo](http://shayansulehri.com/simpleJQueryListPlugin/)
 
 
 ### Installing
