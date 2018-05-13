@@ -3,21 +3,27 @@
 
 Simple JQuery plugin for reorderable lists.
 
-## Getting Started
+## Overview
 
-Just copy path of index.html into any browser address bar and hit enter to see sample page.
-All the JavaScript code is in main.js.
+Simple Reorderable List JQuery Plugin is a simple, flexible list plugin. It enables items in a list to be sorted horizontally using the mouse or up and down arrows.
+
+jQuery Sortable depends on jQuery UI and works well with Twitter's Bootstrap.
+
+## Demo
+
+[Basic Demo](https://www.google.com)
+
 
 ### Installing
 
 Bind the plugin with any element.
 
-```
+```javascript
 $('.container').reorderable();
 ```
 
 Pass an array of JavaScript objects with no configuration properties (to invoke default properties) OR choose from the following properties (you can use one or all properties, as required).
-**NOTE: For any property you miss, default property will take place.
+**NOTE**: For any property you miss, default property will take place.
 
 ```javascript
 $('.container').reorderable([
@@ -56,7 +62,7 @@ var array = [
 $('.container').reorderable(array);
 ```
 
-## Built With
+## Dependencies
 
 * [JQuery](http://api.jquery.com/)
 * [JQueryUI](http://jqueryui.com/)
