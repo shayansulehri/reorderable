@@ -15,7 +15,7 @@ Simple Reorderable List JQuery Plugin depends on jQuery UI and works well with T
 [Basic Demo](http://shayansulehri.com/simpleJQueryListPlugin/)
 
 
-### Installing
+### Installation
 
 Bind the plugin with any element.
 

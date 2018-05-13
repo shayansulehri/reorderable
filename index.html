@@ -32,15 +32,77 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-12 ml-auto mr-auto">
+				<div class="col-md-12 ml-auto mr-auto mt-5">
 					<div class="cont cont1 col-md-7">
 
 					</div>
-					<div class="cont cont2" style="width:400px;">
+					<div class="cont ml-5 cont2" style="width:400px;">
 
 					</div>
-					<div class="cont cont3" style="width:300px;">
+					<div class="cont ml-5 mt-3 cont3" style="width:300px;">
 					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 ml-auto mr-auto mt-5">
+						<h3 id="installing">Installing</h3>
+
+						<p>Bind the plugin with any element.</p>
+						
+						<pre><code class="javascript language-javascript codeblock">
+							$('.container').reorderable();
+						</code></pre>
+						
+						<p>Pass an array of JavaScript objects with no configuration properties (to invoke default properties) OR choose from the following properties (you can use one or all properties, as required).
+						<br/>
+						<br/>
+						<strong>NOTE</strong>: For any property you miss, default property will take place.</p>
+						
+						<pre><code class="javascript language-javascript">
+						$('.container').reorderable([
+							{
+								label: "Text",
+								src: "Path to image source",
+								color: "Text color",
+								backgroundColor: "Background color for the list item"
+							}
+						]);
+						</code></pre>
+						
+						<p>For multiple items, pass an array of objects.</p>
+						
+						<pre><code class="javascript language-javascript">
+						var array = [
+							{
+								//0 index
+								label: "Text",
+								src: "Path to image source",
+								color: "Text color",
+								backgroundColor: "Background color for the list item"
+							},
+							{
+								//1 index
+								label: "Text",
+								src: "Path to image source",
+								color: "Text color",
+							},
+							{
+								//2 index
+								label: "Text",
+								color: "Text color",
+							}
+						]
+						
+						$('.container').reorderable(array);
+						</code></pre>
+						
+						<h2 id="dependencies">Dependencies</h2>
+						
+						<ul>
+						<li><a href="http://api.jquery.com/">JQuery</a></li>
+						
+						<li><a href="http://jqueryui.com/">JQueryUI</a></li>
+						</ul>
 				</div>
 			</div>
 		</div>
