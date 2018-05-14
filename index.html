@@ -5,16 +5,20 @@
 	<title>Shayan Sulehri | Reorderable</title>
 	<!-- Custom stlylesheet -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-	    crossorigin="anonymous">
+		crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+
+	<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 	<link type="text/css" rel="stylesheet" href="css/style.css" />
 	<link type="text/css" rel="stylesheet" href="css/reorderable.css" />
 
-	<!-- Place this tag in your head or just before your close body tag. -->
+	<!-- Git buttons js -->
 	<script async defer src="https://buttons.github.io/buttons.js"></script>
 </head>
 
 <body>
-	<div class="main">
+	<div class="main mt-3">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 ml-auto mr-auto text-center pt-3">
@@ -33,24 +37,24 @@
 			</div>
 			<div class="row">
 				<div class="col-md-12 ml-auto mr-auto mt-5">
-					<div class="cont cont1 col-md-7">
+					<div class="cont cont1 col-md-7 float-left">
 
 					</div>
-					<div class="cont ml-5 cont2" style="width:400px;">
+					<div class="cont ml-5 float-left cont2 " style="width:400px;">
 
 					</div>
-					<div class="cont ml-5 mt-3 cont3" style="width:300px;">
+					<div class="cont ml-5 float-left mt-3 cont3" style="width:300px;">
 					</div>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-12 ml-auto mr-auto mt-5">
-						<h3 id="installing">Installing</h3>
+						<h3 id="installing">Usage</h3>
 
 						<p>Bind the plugin with any element.</p>
 						
-						<pre><code class="javascript language-javascript codeblock">
-							$('.container').reorderable();
+						<pre class="cont px-3"><code class="javascript language-javascript">
+$('.container').reorderable();
 						</code></pre>
 						
 						<p>Pass an array of JavaScript objects with no configuration properties (to invoke default properties) OR choose from the following properties (you can use one or all properties, as required).
@@ -58,56 +62,100 @@
 						<br/>
 						<strong>NOTE</strong>: For any property you miss, default property will take place.</p>
 						
-						<pre><code class="javascript language-javascript">
-						$('.container').reorderable([
-							{
-								label: "Text",
-								src: "Path to image source",
-								color: "Text color",
-								backgroundColor: "Background color for the list item"
-							}
-						]);
+						<pre class="cont px-3"><code class="javascript language-javascript">
+$('.container').reorderable([
+	{
+		label: "Text",
+		src: "Path to image source",
+		color: "Text color",
+		backgroundColor: "Background color for the list item"
+	}
+]);
 						</code></pre>
 						
 						<p>For multiple items, pass an array of objects.</p>
 						
-						<pre><code class="javascript language-javascript">
-						var array = [
-							{
-								//0 index
-								label: "Text",
-								src: "Path to image source",
-								color: "Text color",
-								backgroundColor: "Background color for the list item"
-							},
-							{
-								//1 index
-								label: "Text",
-								src: "Path to image source",
-								color: "Text color",
-							},
-							{
-								//2 index
-								label: "Text",
-								color: "Text color",
-							}
-						]
-						
-						$('.container').reorderable(array);
+						<pre class="cont px-3"><code class="javascript language-javascript">
+var array = [
+	{
+		//0 index
+		label: "Text",
+		src: "Path to image source",
+		color: "Text color",
+		backgroundColor: "Background color for the list item"
+	},
+	{
+		//1 index
+		label: "Text",
+		src: "Path to image source",
+		color: "Text color",
+	},
+	{
+		//2 index
+		label: "Text",
+		color: "Text color",
+	}
+]
+
+$('.container').reorderable(array);
 						</code></pre>
 						
-						<h2 id="dependencies">Dependencies</h2>
+						<h2 id="dependencies" class="mt-5">Dependencies</h2>
 						
-						<ul>
-						<li><a href="http://api.jquery.com/">JQuery</a></li>
-						
-						<li><a href="http://jqueryui.com/">JQueryUI</a></li>
+						<ul class="list-group">
+							<li class="list-group-item"><a href="http://api.jquery.com/">JQuery</a></li>
+							
+							<li class="list-group-item"><a href="http://jqueryui.com/">JQueryUI</a></li>
 						</ul>
 				</div>
 			</div>
 		</div>
 
 	</div>
+	<!--Footer-->
+<footer class="page-footer font-small cont mt-5 pt-0">
+
+		<!--Footer Links-->
+		<div class="container">
+	
+			<!--First row-->
+			<div class="row">
+	
+				<!--First column-->
+				<div class="col-md-12 py-5">
+	
+					<div class="mb-5 flex-center">
+
+						<!--Twitter-->
+						<a href="https://twitter.com/ShayanSulehri" class="tw-ic"style="padding-left: 33px">
+							<i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x text-primary"> </i>
+						</a>
+						<!--Linkedin-->
+						<a href="https://www.linkedin.com/in/shayansulehri/" class="li-ic">
+							<i class="fab fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x text-primary"> </i>
+						</a>
+						<!--Instagram-->
+						<a href="https://github.com/shayansulehri" class="ins-ic">
+							<i class="fab fa-github fa-lg white-text mr-md-5 mr-3 fa-2x text-primary"> </i>
+						</a>
+					</div>
+				</div>
+				<!--/First column-->
+			</div>
+			<!--/First row-->
+		</div>
+		<!--/Footer Links-->
+	
+		<!--Copyright-->
+		<div class="col-md-12 py-3 text-center">
+			© 2018 Copyright
+			<a href="http://shayansulehri.com/"> Shayan Sulehri </a>
+		</div>
+		<!--/Copyright-->
+	
+	</footer>
+	<!--/Footer-->
+						  
 </body>
 <!-- jQuery Plugins -->
 <script type="text/javascript" src="js/jquery.min.js"></script>
