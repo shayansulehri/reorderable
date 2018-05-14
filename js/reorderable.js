@@ -9,7 +9,7 @@
 	var pluginName = "reorderable",
 		//defaults
 		defaults = {
-			color: "#424242",
+			color: "#000",
 			backgroundColor:"#fff",
 			//The empty string will help avoiding null checks, during the population of the HTML template
 			label:"",
