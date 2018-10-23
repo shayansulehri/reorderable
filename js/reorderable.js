@@ -3,7 +3,7 @@
  * Simple Reorderable List JQuery Plugin
  */
 ;
-(function ($, window, document, undefined) {
+(function ($, window, document) {
 
 	"use strict";
 	var pluginName = "reorderable",
